@@ -1,0 +1,49 @@
+/* -- USRBG User Popout -- */
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
+
+.userPopout-3XzG_A {
+	background: var(--background-primary);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+	background-image: var(--user-background);
+}
+
+.protip-YaFfgO {display: none;}
+
+.footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz, 
+.textarea-2r0oV8:focus { 
+	border: none; background: rgba(0,0,0,0.5);
+}
+
+.userPopout-3XzG_A  .header-2BwW8b {background: rgba(0,0,0,0.25) !important}
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6,
+.body-3iLsc4 {
+	z-index: 1;
+	background: rgba(0,0,0,0.5) !important;
+}
+
+/* -- USRBG Profile Modal -- */
+.modal-3c3bKg .inner-1ilYF7 > div {
+	background: var(--background-primary);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: var(--user-background);
+}
+
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {border-top: 0}
+
+.header-QKLPzZ, .headerFill-adLl4x {background: transparent}
+.modal-3c3bKg .body-3ND3kc {background: rgba(0,0,0,0.75)}
+.modal-3c3bKg .topSectionNormal-2-vo2m, 
+.modal-3c3bKg .topSectionSpotify-1lI0-P, 
+.modal-3c3bKg .topSectionPlaying-1J5E4n, 
+.modal-3c3bKg .topSectionStreaming-1Tpf5X, 
+.modal-3c3bKg .connectedAccount-36nQx7, 
+.modal-3c3bKg .body-3ND3kc .listRow-hutiT_:hover {
+	background: rgba(0,0,0,0.4) !important;
+}
