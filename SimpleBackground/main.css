@@ -1,0 +1,44 @@
+/* General */
+body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
+.appMount-3lHmkl {background:var(--background) center/cover no-repeat}
+
+/* Top bar */
+.withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+
+/* Server list */
+.wrapper-3NnKdC {background:transparent}
+.scroller-1Bvpku {background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+
+/* Channels and friends */
+#app-mount .sidebar-2K8pFh {border-radius:0}
+.sidebar-2K8pFh {background:transparent}
+.sidebar-2K8pFh {backdrop-filter:blur(var(--sides-blur))}
+.container-3w7J-x {background:rgba(var(--color-secondary),var(--sides-transparency))}
+
+.scroller-1JbKMe {background:transparent}
+.privateChannels-1nO12o {background:rgba(var(--color-secondary),var(--sides-transparency))}
+
+/* Member list */
+.members-1998pB>div {background:transparent}
+.members-1998pB {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+
+/* User panel */
+.panels-j1Uci_ {background:rgba(var(--color-secondary-alt),0.95)}
+
+/* Chat */
+.chat-3bRxxu {background:transparent}
+.chatContent-a9vAAp {background:rgba(var(--color-primary),var(--chat-transparency))}
+#app-mount .form-2fGMdU:before {display:none}
+
+/* Tool bar */
+.container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+
+/* Friends online */
+#app-mount .container-1D34oG {background:transparent}
+.peopleColumn-29fq28 {background:rgba(var(--color-primary),var(--chat-transparency))}
+.nowPlayingColumn-2sl4cE {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+
+/* Settings */
+.layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {background:transparent}
+.sidebarRegionScroller-3MXcoP {background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+.contentRegion-3nDuYy {background:rgba(var(--color-primary),var(--chat-transparency))}
