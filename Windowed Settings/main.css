@@ -11,6 +11,7 @@
 	top: 0px;
 	position: relative;
 }
+.layers-3iHuyZ .layer-3QrUeG:first-of-type[style*="scale(0"], .baseLayer-35bLyl {transform: none !important}
 .layers-3iHuyZ .layer-3QrUeG:first-of-type[aria-hidden="true"] {
 	transform: none !important;
 	opacity: 1 !important;
@@ -18,19 +19,9 @@
 	pointer-events: none !important;
 	transition: 100ms;
 }
-.standardSidebarView-3F1I7i {
-	top: 0px !important;
-}
-.sidebar-CFHs9e {
-	padding: 30px 6px 30px 20px;
-}
-.contentColumn-2hrIYH {
-	padding: 30px 40px 30px !important;
-}
-.layers-3iHuyZ .layer-3QrUeG:first-of-type[style*="scale(0"],
-.baseLayer-35bLyl {
-	transform: none !important;
-}
+.standardSidebarView-3F1I7i {top: 0px !important}
+.sidebar-CFHs9e {padding: 30px 6px 30px 20px}
+.contentColumn-2hrIYH {padding: 30px 40px 30px !important}
 
 /* Closes the settings when clicking outside of them */
 .tools-3-3s-N .closeButton-1tv5uR::after {
@@ -47,13 +38,10 @@
 	transform: none;
 	background: transparent;
 	z-index: -1;
+	border: none;
 }
-.contentRegion-3nDuYy .tools-3-3s-N {
-	position: relative;
-}
-.contentRegion-3nDuYy .toolsContainer-1edPuj {
-	position: absolute;
-}
-.contentRegion-3nDuYy .tools-3-3s-N .keybind-KpFkfr {
-	display: none;
-}
+#app-mount .tools-3-3s-N .closeButton-1tv5uR:hover {background: none}
+.tools-3-3s-N .closeButton-1tv5uR svg {display: none}
+.contentRegion-3nDuYy .tools-3-3s-N {position: relative}
+.contentRegion-3nDuYy .toolsContainer-1edPuj {position: absolute}
+.contentRegion-3nDuYy .tools-3-3s-N .keybind-KpFkfr {display: none}
