@@ -1,0 +1,364 @@
+:root { 
+
+	/* -- Addons -- */
+ 
+	/* BetterAvatar Popout */
+ 
+	--popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
+	--popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
+	--avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+ 
+	/* Colored emoji picker */
+	--colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
+ 
+	/* -- Others settings -- */
+ 
+	/* User settings color (Mute, Deafen and settings) */
+	--user-buttons-color: #6e85d3;
+
+	/* User settings spacing */
+	--user-buttons-spacing: 10px;
+
+	/* Chat buttons color */
+	--chat-buttons: #6E85D3;
+ 
+	/* Circles next to role names */
+	--role-circle: 12px; /* Set it to "0px" if u don't want circles */
+ 
+	/* Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png) */
+	--tooltips: block; /* Set it to "none" if u don't want it */
+
+	/* Separators */
+	--separators: none; /* Set it to "block" if u want it */
+ 
+	/* Discord logo */
+	--discord-logo: none; /* Set it to "block" if u want it */
+ 
+	--border-radius-general: 1em;
+} /* thx snapperito and Harley for the help :3 */
+ 
+.theme-dark {
+	--background-tertiary: #101320 !important;
+	--background-secondary: #1e2233 !important;
+	--background-secondary-alt: #191f2e !important;
+	--background-primary: #23283d !important;
+	--channeltextarea-background: #191f2e !important;
+	--background-accent: #6E85D3 !important;
+	--background-modifier-hover: #1c2030 !important;
+	--background-modifier-active: #1a1e2e !important;
+	--background-modifier-selected: #191f2e !important;
+	--deprecated-card-bg: #12141f63 !important;
+	--background-floating: #101320 !important;
+	--deprecated-quickswitcher-input-background:#101320 !important;
+	--scrollbar-auto-thumb: #121722 !important;
+	--scrollbar-auto-track: #191f2e !important;
+	--scrollbar-thin-thumb: #141925 !important;
+	--spotify-color: #096dc0 !important;
+	--elevation-low: none;
+}
+.theme-light {
+	--background-tertiary: #101320;
+	--background-secondary: #1e2233;
+	--background-secondary-alt: #191f2e;
+	--background-primary: #23283d;
+	--header-primary: #fff;
+	--header-secondary: #b1b5b9;
+	--text-normal: #8e9297;
+	--scrollbar-thin-thumb: #141925;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* --- 😀 PARTIE MP --- */
+
+/* Collone amis */
+.peopleColumn-29fq28 { background: var(--background-primary) /*!important*/;}
+
+/* Appel amis */
+.primaryDark-3mSFDl {background: var(--background-secondary-alt) !important;}
+
+/* Selecteur région appel amis */
+.regionSelectPopout-p9-0_W { background: var(--background-secondary-alt) !important;}
+.quickSelect-3BxO0K { margin-top: 10px;}
+
+/* Activité amis */
+.itemCard-v9viV7.active-1xchHY, .itemCard-v9viV7:hover, .popout-38lTFE { background: var(--background-tertiary) !important;}
+.wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
+
+/* --- 📜 PARTIE LISTE SERVEURS --- */
+
+#status-picker {
+	position: absolute;
+	bottom: -5px !important; 
+	left: -8px !important;
+	width: 240px;
+	border-radius: 0;
+	background: var(--background-tertiary);
+}
+.separator-2I32lJ, .status-1fhblQ, .description-2L932D { display: none;}
+.mask-1qbNWk.icon-1IxfJ2 { height: 18px; width: 18px; margin: auto;}
+
+.animatorTop-2Y7x2r.didRender-33z1u8 >
+.menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto auto auto auto;
+	visibility: visible;
+}
+#status-picker-custom-status { grid-column: 1/5;}
+.item-1tOPte > .statusItem-33LqPf { grid-template-columns: 100% 1fr;}
+.item-1tOPte > .statusItem-33LqPf > div { padding: auto; margin: auto;}
+
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 { transition: opacity 0.15s linear 0s; }
+.customText-tY5LJn { font-size: 15px; }
+.customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
+
+#status-picker-online.focused-3afm-j { background-color: #43b5829f;}
+#status-picker-idle.focused-3afm-j { background-color: #faa81a96;}
+#status-picker-dnd.focused-3afm-j { background-color: #b83a3ca6;}
+#status-picker-invisible.focused-3afm-j { background-color: #747f8da4;}
+#status-picker-custom-status.focused-3afm-j { background-color: #ffcd4d69;}
+
+/* Notification de mention */
+/*.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 135px;}*/
+
+.vp-audioviz-bar { background: #042d50fb; }
+
+/* --- ✏️ PARTIE SALONS --- */
+
+/* Flèche catégeories */
+.mainContent-2h-GEV > .arrow-gKvcEx { display: none; }
+
+/* --- 💬 PARTIE TCHAT --- */
+
+/* Barre du salon */
+.container-1r6BKw { background: var(--background-secondary) !important; }
+.children-19S4PO:after { display: none;}
+
+/* Nouveaux messages */
+.newMessagesBar-265mhP { background-color: #6e85d3; border-radius: 50px; }
+
+/* Bouton 'Suivre' */
+.children-19S4PO > .followButton-L6L-Us { background: var(--background-secondary-alt) !important; }
+
+/* Revenir aux messages récents */
+.jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { border-radius: 50px; padding: 0;}
+
+/* Menu # ou @ */
+.autocomplete-1vrmpx { background: var(--background-secondary-alt) !important;}
+.selected-1Tbx07 { background: var(--background-secondary) !important;}
+
+/* Message d'upload */
+.uploadModal-2ifh8j { background: var(--background-primary) !important;}
+.footer-3mqk7D { background: var(--background-tertiary) !important;}
+
+/* Selecteur d'emotes */
+.sprite-2iCowe { filter: var(--colored-emoji) !important;}
+.emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
+
+/* i'm blue dabedi dabeda */
+.attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
+.colorGrey-2DXtkV { background: var(--chat-buttons) !important; }
+
+/* Barre de recherche */
+.container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
+.react-datepicker__day { background: var(--background-secondary) !important;}
+.react-datepicker__day:hover, .focused-2bY0OD { background: var(--background-secondary-alt) !important;}
+.dim-1l4L4y span { background: var(--background-accent) !important;}
+.searchLearnMore-3SQUAj, .option-96V44q:after { display: none; }
+
+/* --- 👥 PARTIE MEMBRES --- */
+
+/* Popup d'un membre */
+.headerNormal-T_seeN, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF { background: #151b27 !important;}
+.activityUserPopout-2yItg2 { border-radius: 5px; margin: 0 8px 15px 8px; padding: 10px;}
+.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: #7289DA !important; box-shadow: 0px 4px 0px #46599c;}
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954 !important; box-shadow: 0px 4px 0px #11923e;}
+.headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: #593695 !important; box-shadow: 0px 4px 0px #47287c;}
+.headerXbox-3G-4PF  > .activityUserPopout-2yItg2 { background: #107C10 !important; box-shadow: 0px 4px 0px #095509;}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background: var(--background-secondary)}
+
+/* Roles */
+.role-2irmRk {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	border: solid;
+	border-width: 0px 0px 0px 3px;
+	border-radius: 1px 3px 3px 1px;
+}
+
+.roleCircle-3xAZ1j { width: var(--role-circle); height: var(--role-circle);}
+
+.roleCircle-3xAZ1j::before {
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+/* - Popup agrandie d'un membre - */
+
+/* Meilleur avatar dans les popouts */
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--popout-status-icon); }
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
+.header-QKLPzZ > .wrapper-3t9DeA > .avatarHint-1qgaV3 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
+
+/* Badges */
+.headerInfo-30uryT > .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
+.headerInfo-30uryT > .profileBadges-2vWUYb > .profileBadgeWrapper-1rGSsp { padding-bottom: 7px; }
+
+/* Status */
+.root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X, .root-SR8cQa > .topSectionXbox-3fWLjS { background: var(--background-tertiary);}
+.activityProfile-2bJRaP { border-radius: 5px; margin: 0 13px 13px 13px;}
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA !important; box-shadow: 0px 4px 0px #46599c;}
+.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954 !important;  box-shadow: 0px 4px 0px #11923e;}
+.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; box-shadow: 0px 4px 0px #47287c;}
+.topSectionXbox-3fWLjS > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #107C10 !important; box-shadow: 0px 4px 0px #095509;}
+.actionButton-3W1xZa { background: var(--background-primary) !important;}
+
+/* Réseaux sociaux */
+.connectedAccount-36nQx7 {
+	/*border: solid #151b27;
+	border-width: 1.2px 1.2px 3px 1.2px;*/
+	border: 0;
+	border-radius: 4px;
+	padding: 0 20px 0 0;
+}
+
+.connectedAccountIcon-3P3V6F { padding: 8px; border-radius: 4px 0 0 4px;}
+.connectedAccountIcon-3P3V6F[src="/assets/4662875160dc4c56954003ebda995414.png"] { background: #1da0f248 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] { background: #601bd852 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] { background: #d9252b49 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] { background: #0098e446 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] { background: #00000034 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] { background: #fe44013d !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] { background: #2e328485 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] { background: #1ed75f34 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/0d44ba28e39303de3832db580a252456.png"] { background: #5dc21e42 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] { background: #cea14638 !important; }
+.connectedAccountIcon-3P3V6F[src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] { background: #24292e !important; }
+
+.connectedAccountName-f8AEe2 { margin-left: 13px;}
+
+/* --- 👤 PARAMETRE UTILISATEUR --- */
+
+/* Facturation */
+.paymentRow-2e7VM6, .pageActions-1SVAnA, .codeRedemptionRedirect-1wVR4b { background: var(--background-secondary-alt) !important; }
+.expandedInfo-3kfShd { background: var(--background-secondary) !important; }
+
+/* Abonnements */
+.detailsBlock-FoDTGA > div > div > .colorPrimary-3b3xI6 { background: #7289DA !important; }
+
+/* Voix & Vidéo */
+.previewOverlayInner-1WXURq { background: var(--background-secondary-alt) !important; }
+
+/* Activité de jeux */
+.notDetected-33MY4s, .addGamePopout-2RY8Ju { background: var(--background-secondary-alt) !important; }
+
+/* --- ⚙️ PARAMETRE SERVEUR --- */
+
+/* Notification de modifications */
+.container-2VW0UT { background: var(--background-tertiary) !important; }
+
+/* Selecteur de pays */
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-secondary-alt) !important; border: none;}
+
+/* Roles */
+.colorPickerCustom-2CWBn2 { background: var(--background-secondary) !important; }
+
+/* Emoji */
+.emojiInput-1aLNse { background: var(--background-secondary-alt) !important;}
+
+/* Logs du serveur */
+.headerExpanded-CUEwZ5, .headerDefault-1wrJcN, .headerClickable-2IVFo9 { background: var(--background-secondary-alt) !important;} /* Coloration des logs */
+.changeDetails-bk98pu { background: var(--background-secondary-alt) !important; }
+.auditLog-3jNbM6 { border-color: var(--background-tertiary) !important;}
+.divider-1pnAR2 { display: none;}
+
+.popoutList-T9CKZQ { background: var(--background-secondary-alt) !important; }
+.selectableItem-1MP3MQ:hover { background: var(--background-secondary) !important; }
+
+/* Intégrations */
+.card-o7rAq-, .header-146Xl5 { background: var(--background-secondary-alt) !important; }
+.body-1zRX82, .cardPrimaryEditable-3KtE4g { background: var(--background-secondary) !important; }
+
+/* Widget */
+.colorGrey-2DXtkV { color: #fff !important; }
+
+/* Vue d'ensemble */
+.css-3vaxre-menu { background: var(--background-secondary-alt) !important; border: 1px solid var(--background-tertiary) !important; }
+
+/* Ecran d'acceuil */
+.addChannelButton-3j20Ox { background: var(--background-secondary) !important; }
+
+/* Boost dans parametres */
+.tierBody-x9kBBp { background: var(--background-secondary) !important; }
+.tierHeaderContent-2-YfvN, .tierInProgress-3mBoXq { background: var(--background-secondary-alt) !important; }
+.background-3xPPFc { color: var(--background-secondary-alt) !important; }
+
+/* Boost */
+.perksModal-fSYqOq { background: var(--background-primary) !important; }
+.tierMarkerBackground-3q29am, .tierHeaderLocked-1s2JJz, .barBackground-2EEiLw, .icon-TYbVk4 { background: var(--background-secondary-alt) !important; }
+.option-96V44q.selected-rZcOL-, .tierBody-16Chc9, .perk-2WeBWW, .tierMarkerInProgress-24LMzJ { background: var(--background-secondary) !important; }
+
+/* Membres */
+.overflowRolesPopout-140n9i{ background: var(--background-secondary) !important; }
+
+/* Bannissements */
+.card-FDVird::before { background: var(--background-secondary) !important; border-color: #101320 !important; }
+
+/* --- 🌺 AUTRE --- */
+
+/* Message rejoindre serveur */
+.contentWrapper-3WC1ID { background: var(--background-secondary) !important;}
+
+/* Message de bienvenue */
+.root-1gCeng:not(.modal-qgFCbT) { background: var(--background-secondary) !important;}
+
+/* Exporateur de serveurs */
+.css-ix84ef-menu { background: var(--background-secondary-alt) !important; }
+.pageWrapper-1PgVDX, .css-1adxh11-control, .css-12hk9yc-control, .css-1emou8a-control { background: var(--background-secondary) !important; }
+.theme-light .root-1gCeng, .theme-light .footer-2gL1pp { box-shadow: none; }
+
+/* Paramètres de notifications */
+.inner-1ilYF7 > .modal-yWgWj- > .header-1TKi98 { background: var(--background-secondary) !important; }
+.inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih { background: var(--background-secondary) !important; }
+
+/* Suppresion du logo Discord */
+.wordmark-2iDDfm > svg { display: var(--discord-logo); } 
+
+/* Popout "Regarder le stream" */
+.body-Ogsp8i { background: var(--background-tertiary) !important;}
+
+/* Popout supprimer un message */
+.message-2qRu38 { background: var(--background-primary) !important; }
+
+/* Infobulles */
+.tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary) !important;}
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--background-tertiary);}
+
+/* Combo clavier */
+.keyboardShortcutsModal-3piNz7 { background: var(--background-primary) !important; }
+
+/* Jeux de Discord */
+.scroller-1JpcIc { background: var(--background-primary) !important; }
+.whyYouMightLikeIt-2zZIIj, .content-35aVm0, .bodySection-jqkkIP, .row-1bU71H { background: var(--background-secondary) !important; }
+
+/* Activité de jeux et salon vocal */
+.activityPanel-28dQGo, .container-1giJp5 { border-bottom: none; }
+
+/* Barre "Echec de chargement des messages */
+.messagesErrorBar-nyJGU7 { border-radius: 100px; padding-bottom: 0; margin-bottom: 5px;}
