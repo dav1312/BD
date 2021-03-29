@@ -3,11 +3,11 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .appMount-3lHmkl {background:var(--background) center/cover no-repeat}
 
 /* Top bar */
-.withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+.withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Server list */
 .wrapper-3NnKdC {background:transparent}
-.scroller-1Bvpku {background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+.scroller-1Bvpku {background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Channels and friends */
 #app-mount .sidebar-2K8pFh {border-radius:0}
@@ -23,7 +23,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .members-1998pB {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
-.panels-j1Uci_ {background:rgba(var(--color-secondary-alt),0.95)}
+.panels-j1Uci_ {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
 
 /* Chat */
 .chat-3bRxxu {background:transparent}
