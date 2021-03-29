@@ -41,5 +41,5 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Settings */
 .layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {background:transparent}
-.sidebarRegionScroller-3MXcoP {background:rgba(var(--color-tertiary),0.95);backdrop-filter:blur(var(--sides-blur))}
+.sidebarRegionScroller-3MXcoP {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 .contentRegion-3nDuYy {background:rgba(var(--color-primary),var(--chat-transparency))}
