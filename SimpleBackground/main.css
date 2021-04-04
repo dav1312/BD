@@ -18,6 +18,10 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-1JbKMe {background:transparent}
 .privateChannels-1nO12o {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
+/* Discovery */
+.sidebar-2K8pFh > .scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
+#app-mount .pageWrapper-1PgVDX {background:rgba(var(--color-primary),var(--chat-transparency))}
+
 /* Member list */
 .members-1998pB>div {background:transparent}
 .members-1998pB {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
