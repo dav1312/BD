@@ -142,6 +142,7 @@
 }
 
 /* UnbelievaBoat#1046 & UnbelievaBoat Premium#3539 */
+
 [user_by_bdfdb="292953664492929025"]:not(img),
 [data-user-id="292953664492929025"]:not(img),
 [user_by_bdfdb="356950275044671499"]:not(img),
@@ -150,12 +151,14 @@
 }
 
 /* GiveawayBot#2381 */
+
 [user_by_bdfdb="294882584201003009"]:not(img),
 [data-user-id="294882584201003009"]:not(img) {
 	--user-background: url('https://cdn.discordapp.com/avatars/294882584201003009/4bfd18c35f26a86f2b5b4eb2ad81a1f7.png?size=4096');
 }
 
 /* NQN#3454 */
+
 [user_by_bdfdb="559426966151757824"]:not(img),
 [data-user-id="559426966151757824"]:not(img) {
 	--user-background: url('https://cdn.discordapp.com/splashes/559426764531695665/e73f74315276b4218f3e433985cec8e3.jpg?size=4096');
