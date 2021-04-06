@@ -189,6 +189,7 @@
 
 [user_by_bdfdb="432610292342587392"]:not(img),
 [data-user-id="432610292342587392"]:not(img) {
+	--user-popout-position: right !important;
 	--user-background: url('https://cdn.discordapp.com/splashes/435763044120002561/cb71b84c957490c4b0f7810190e953de.jpg?size=4096');
 }
 
