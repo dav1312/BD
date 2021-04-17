@@ -4,7 +4,7 @@
 
 /* USRBG User Popout */
 .userPopout-3XzG_A {transform:translateZ(0)}
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA::after {
 	content: '';
 	position: fixed;
 	top: 0;
@@ -26,8 +26,8 @@
 
 /* USRBG Profile Modal */
 .root-SR8cQa {transform: translateZ(0)}
-.header-QKLPzZ .wrapper-3t9DeA::before {
-	content: '';
+#app-mount .header-QKLPzZ .wrapper-3t9DeA::before {
+	content: '' !important;
 	position: fixed;
 	top: 0;
 	left: 0;
