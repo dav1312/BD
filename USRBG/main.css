@@ -22,7 +22,8 @@
 	background-image: var(--user-background);
 }
 .userPopout-3XzG_A .header-2BwW8b,
-.userPopout-3XzG_A .rolesList-22qj2L {
+.userPopout-3XzG_A .rolesList-22qj2L,
+.userPopout-3XzG_A .footer-1fjuF6 {
 	z-index: 1;
 }
 
@@ -39,9 +40,9 @@
 	pointer-events: none;
 	background: var(--user-background) center/cover no-repeat;
 }
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
+.root-SR8cQa .headerInfo-30uryT,
+.root-SR8cQa .tabBarItem-1b8RUP,
+.root-SR8cQa .activity-1ythUs {
 	z-index: 1;
 	position: relative;
 }
