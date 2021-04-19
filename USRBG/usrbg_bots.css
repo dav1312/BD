@@ -1,15 +1,10 @@
-/*Sets default user popout position to center.*/
+/* Default USRBG position */
+.userPopout-3XzG_A {--user-popout-position: center}
 
-.userPopout-3XzG_A {
-	--user-popout-position: center;
-}
-
-/* Dyno#3861 & Dyno#8506 */
+/* Dyno#3861 */
 
 .userPopout-3XzG_A [data-user-id="155149108183695360"],
-.root-SR8cQa [data-user-id="155149108183695360"],
-.userPopout-3XzG_A [data-user-id="470722416427925514"],
-.root-SR8cQa [data-user-id="470722416427925514"] {
+.root-SR8cQa [data-user-id="155149108183695360"] {
 	--user-background: url('https://cdn.discordapp.com/banners/203039963636301824/22a247f1fb95c2459af464d9e2d6553a.jpg?size=4096');
 }
 
