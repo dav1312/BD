@@ -22,8 +22,7 @@
 	background-image: var(--user-background);
 }
 .userPopout-3XzG_A .header-2BwW8b,
-.userPopout-3XzG_A .rolesList-22qj2L,
-.userPopout-3XzG_A .footer-1fjuF6 {
+.userPopout-3XzG_A .rolesList-22qj2L {
 	z-index: 1;
 }
 
