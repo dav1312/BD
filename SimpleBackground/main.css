@@ -29,6 +29,10 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-1JbKMe {background:transparent}
 .privateChannels-1nO12o {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
+/* Nitro tab */
+.applicationStore-1pNvnv {background: transparent}
+.scroller-9moviB {background: rgb(var(--color-primary), var(--chat-transparency))}
+
 /* Discovery */
 .sidebar-2K8pFh > .scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
 #app-mount .pageWrapper-1PgVDX {background:rgba(var(--color-primary),var(--chat-transparency))}
