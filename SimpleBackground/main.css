@@ -57,6 +57,17 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount .children-19S4PO:after {display:none}
 
+/* Stage channels */
+.container-pTf0Ly, .callContainer-3UuV6S, .scroller-1SuHJo,
+.container-2t1JyW, .rowContainer-2tYerQ, .participants-soO0aD,
+.container-1EOCj2 {background: transparent}
+.headerContainer-3Dbfbk {background: rgba(var(--color-primary),var(--sides-transparency));backdrop-filter: blur(var(--sides-blur))}
+.container-1EOCj2>.contentContainer-3uyIT3 {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.sidebarVisible-F3zEoe {margin-right: 0;border-radius: 0}
+.scroller-1SuHJo::-webkit-scrollbar-track {display: none}
+.scroller-1SuHJo::-webkit-scrollbar-thumb {background: var(--background-floating)}
+.root-217Brm {background:rgba(0,0,0,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+
 /* Friends online */
 #app-mount .container-1D34oG {background:transparent}
 .peopleColumn-29fq28 {background:rgba(var(--color-primary),var(--chat-transparency))}
