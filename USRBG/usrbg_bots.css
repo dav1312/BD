@@ -202,3 +202,33 @@
 .root-SR8cQa [data-user-id="408785106942164992"] {
 	--user-background: url('https://cdn.discordapp.com/splashes/420104212895105044/512173a02ccb1c22c3b0086e63021528.jpg?size=4096');
 }
+
+/* Karuta#1280 */
+
+.userPopout-3XzG_A [data-user-id="646937666251915264"],
+.root-SR8cQa [data-user-id="646937666251915264"] {
+	--user-popout-position: right !important;
+	--user-background: url('https://cdn.discordapp.com/banners/648031568756998155/1d9ec406e4cd0a5eb41995576b9923c9.jpg?size=4096');
+}
+
+/* Pokétwo#8236 */
+
+.userPopout-3XzG_A [data-user-id="716390085896962058"],
+.root-SR8cQa [data-user-id="716390085896962058"] {
+	--user-background: url('https://cdn.discordapp.com/splashes/716390832034414685/2cba7bbb1a2bcaeabe4bebb709e60e17.jpg?size=4096');
+}
+
+/* PokéMeow#6691 */
+
+.userPopout-3XzG_A [data-user-id="664508672713424926"],
+.root-SR8cQa [data-user-id="664508672713424926"] {
+	--user-background: url('https://cdn.discordapp.com/splashes/664509279251726363/a9e2e2ad221d8133bb31935f5ca682ad.jpg?size=4096');
+}
+
+/* Nekotina#0608 */
+
+.userPopout-3XzG_A [data-user-id="429457053791158281"],
+.root-SR8cQa [data-user-id="429457053791158281"] {
+	--user-popout-position: right !important;
+	--user-background: url('https://cdn.discordapp.com/splashes/659090161237229579/20bdf3225ea225b4f5543274d3b08118.jpg?size=4096');
+}
