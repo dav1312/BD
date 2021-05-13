@@ -74,7 +74,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 /* Friends online */
 #app-mount .container-1D34oG, .container-lRFx4q {background:transparent}
 .peopleColumn-29fq28 {background:rgba(var(--color-primary),var(--chat-transparency))}
-.nowPlayingColumn-2sl4cE {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.nowPlayingColumn-2sl4cE {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Settings */
 .layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {background:transparent}
