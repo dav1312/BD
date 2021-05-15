@@ -29,6 +29,8 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-1JbKMe {background:transparent}
 .privateChannels-1nO12o {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
+.stageSection-3mAD8V {background: rgb(var(--color-primary), var(--chat-transparency))}
+
 /* Nitro tab */
 .applicationStore-1pNvnv {background: transparent}
 .scroller-9moviB {background: rgb(var(--color-primary), var(--chat-transparency))}
@@ -50,8 +52,12 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 #app-mount .form-2fGMdU:before {display:none}
 .wrapper-3vR61M, .wrapper-1F5TKx {background:transparent}
 .content-1o0f9g {background:transparent;backdrop-filter:blur(5px)}
+
 .chat-3bRxxu.threadSidebarOpen-vdkwIh {border-radius: 0}
 .threadSidebar-1o3BTy {margin-left: 0;border-radius: 0}
+
+.container-1n4bMv {background: transparent}
+.container-2vijaa {background: rgb(var(--color-primary), var(--chat-transparency))}
 
 /* Tool bar */
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
