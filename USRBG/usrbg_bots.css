@@ -19,7 +19,9 @@
 
 .userPopout-3XzG_A [data-user-id="270904126974590976"],
 .root-SR8cQa [data-user-id="270904126974590976"] {
-	--user-background: url('https://cdn.discordapp.com/avatars/270904126974590976/d60c6bd5971f06776ba96497117f7f58.png?size=4096');
+	--user-popout-position: right !important;
+	--user-background: url('https://cdn.discordapp.com/banners/470337009886429194/bfd8865854a3a742c1b8a837b10067f5.jpg?size=4096');
+	
 }
 
 /* Koya#1050 */
