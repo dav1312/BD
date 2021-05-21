@@ -90,6 +90,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .titleContainer-2CXtJo::before, .stickyHeader-hH_ZLl::before, .header-2mZ9Ov::before {background:var(--background) center/cover fixed}
 .titleContainer-2CXtJo::after, .stickyHeader-hH_ZLl::after, .header-2mZ9Ov::after {background:rgba(var(--color-primary),var(--chat-transparency))}
 .titleContainer-2CXtJo::after, .titleContainer-2CXtJo::before, .stickyHeader-hH_ZLl::after, .stickyHeader-hH_ZLl::before, .header-2mZ9Ov::after, .header-2mZ9Ov::before {content:"";position:absolute;top:0;bottom:0;right:0;left:0;pointer-events:none;z-index:-1}
+.titleContainer-2CXtJo::before, .titleContainer-2CXtJo::after {height:100px}
 
 /* Plugins */
 /* Member count */
