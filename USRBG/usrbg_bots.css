@@ -248,3 +248,11 @@
 .root-SR8cQa [data-user-id="372022813839851520"] {
 	--user-background: url('https://cdn.discordapp.com/banners/372024042980638721/89ca4dfd5cd0434909175956b77e1658.jpg?size=4096');
 }
+
+/* Nadeko#6685 */
+
+.userPopout-3XzG_A [data-user-id="116275390695079945"],
+.root-SR8cQa [data-user-id="116275390695079945"] {
+	--user-popout-position: right !important;
+	--user-background: url('https://cdn.discordapp.com/splashes/117523346618318850/a6b60290d7309584e38295ffaeaefc4b.jpg?size=4096');
+}
