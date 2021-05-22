@@ -82,6 +82,10 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .peopleColumn-29fq28 {background:rgba(var(--color-primary),var(--chat-transparency))}
 .container-lRFx4q {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
+/* Library */
+.header-39GIC8 {background: transparent}
+.scroller-1IIF0A, .scroller-2XE8rp, .scroller-1JpcIc {background: rgb(var(--color-primary), var(--chat-transparency))}
+
 /* Settings */
 .layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {background:transparent}
 .sidebarRegionScroller-3MXcoP {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
