@@ -339,3 +339,13 @@
 [data-user-id="372022813839851520"] .avatarPositionNormal-1CZUPk {
 	top: 76px
 }
+
+/* Nadeko#6685 */
+
+[data-user-id="116275390695079945"] .profileBanner-j34RzR {
+	background: url('https://cdn.discordapp.com/splashes/117523346618318850/a6b60290d7309584e38295ffaeaefc4b.jpg?size=4096') center / cover;
+	height: 120px;
+}
+[data-user-id="116275390695079945"] .avatarPositionNormal-1CZUPk {
+	top: 76px
+}
