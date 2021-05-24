@@ -40,8 +40,8 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 #app-mount .pageWrapper-1PgVDX {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Member list */
-.members-1998pB>div {background:transparent}
-.members-1998pB {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.members-1998pB, .members-1998pB>div {background:transparent}
+.membersWrap-2h-GB4 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
 .panels-j1Uci_ {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
@@ -97,4 +97,4 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Plugins */
 /* Member count */
-.hasCounter #MemberCount {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}}
+.hasCounter #MemberCount {background:transparent}
