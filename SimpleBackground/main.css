@@ -75,6 +75,9 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .theme-light .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(235,237,239,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 .chatContent-a9vAAp .container-2fRDfG {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 
+.invite-18yqGF {backdrop-filter:blur(var(--sides-blur))}
+.wrapper-35wsBm, .embedFull-2tM8-- {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+
 /* Tool bar */
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount .children-19S4PO:after {display:none}
