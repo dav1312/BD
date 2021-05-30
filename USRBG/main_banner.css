@@ -1,6 +1,6 @@
 .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
 	height: 120px;
-	background: var(--user-background) center / cover;
+	background: var(--user-background) var(--user-popout-position, center) center / cover;
 }
 .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
 	top: 76px;
