@@ -1,0 +1,142 @@
+<html lang="en" class="">
+	<head>
+		<title>Discord Banner Tester</title>
+		<style>
+			body {
+				background-color: #2f3136;
+			}
+			.container1 {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+			}
+			.container2 {
+				margin: 0;
+				padding: 20px;
+				background-color: #36393f;
+				border-radius: 1em;
+				box-shadow: 0 0 5px rgb(0 0 0 / 45%), 0 4px 8px rgb(0 0 0 / 35%),
+					0 8px 12px rgb(0 0 0 / 15%);
+			}
+			* {
+				font-family: Montserrat;
+				color: white;
+			}
+			h1 {
+				text-align: center;
+				font-size: calc(20px * 1.5);
+				margin: 0 0 10px 0;
+			}
+			h1 + div,
+			h1 + div + div {
+				margin-top: 10px;
+				text-align: center;
+			}
+			.bannertester {
+				height: calc(180px * 1.5);
+				width: calc(300px * 1.5);
+				border-radius: calc(5px * 1.5);
+				position: relative;
+				align-items: center;
+				margin-top: 20px;
+				background-color: #18191c;
+			}
+			#header {
+				border-radius: calc(5px * 1.5) calc(5px * 1.5) 0 0;
+				width: 100%;
+				height: calc(120px * 1.5);
+				background: center center / cover;
+			}
+			input,
+			button {
+				border-radius: calc(4px * 1.5);
+				color: white;
+				border: 0;
+				outline: 0;
+				height: calc(25px * 1.5);
+				font-size: calc(12px * 1.5);
+			}
+			input {
+				background-color: #40444b;
+				padding-left: calc(6px * 1.5);
+				width: 220px;
+			}
+			button {
+				background: #4f545c;
+				width: 120px;
+			}
+			button:hover {
+				background: #484d54;
+			}
+			button:active {
+				background: #42464d;
+			}
+			.footer {
+				height: calc(60px * 1.5);
+				border-radius: 0 0 calc(5px * 1.5) calc(5px * 1.5);
+			}
+			#avatar {
+				width: calc(80px * 1.5);
+				height: calc(80px * 1.5);
+				position: absolute;
+				left: calc(16px * 1.5);
+				top: calc(76px * 1.5);
+				border-radius: 50%;
+				border: calc(6px * 1.5) solid #18191c;
+				background-color: #18191c;
+				background-position: center center;
+				background-size: cover;
+			}
+			.status {
+				position: absolute;
+				height: calc(16px * 1.5);
+				width: calc(16px * 1.5);
+				background: #3ba55c;
+				border-radius: 50%;
+				border: calc(6px * 1.5) solid #18191c;
+				bottom: calc(16px * 1.5);
+				left: calc(76px * 1.5);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container1">
+			<div class="container2">
+			<h1>Discord Banner Tester</h1>
+			<div>
+				<input type="text" id="bannerinput" placeholder="Banner URL">
+				<button onclick="header()">Set Banner</button>
+			</div>
+			<div>
+				<input type="text" id="avatarinput" placeholder="Avatar URL">
+				<button onclick="avatar()">Set Avatar</button>
+			</div>
+			<div class="bannertester">
+				<div id="header" style="background-image: url(https://i.imgur.com/YapRooK.gif)"></div>
+				<div id="avatar" style="background-image: url(https://cdn.discordapp.com/avatars/369189076437565451/2e346b34bdb9f2bc8acbec1ab76e24b6.png?size=512)"></div>
+				<div class="status"></div>
+				<div class="footer"></div>
+			</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		function avatar() {
+			document
+			.getElementById("avatar")
+			.setAttribute(
+				"style",
+				`background-image: url(${document.getElementById("avatarinput").value})`
+			);
+		}
+		function header() {
+			document
+			.getElementById("header")
+			.setAttribute(
+				"style",
+				`background-image: url(${document.getElementById("bannerinput").value})`
+			);
+		}
+	</script>
+</html>
