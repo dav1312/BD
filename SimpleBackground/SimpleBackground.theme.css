@@ -7,14 +7,9 @@
 
 @import url("https://dav1312.github.io/BD/SimpleBackground/main.css");
 
-/* Variables */
 :root {
-	--background:url('https://cdnb.artstation.com/p/assets/images/images/006/897/659/large/mikael-gustafsson-wallpaper-mikael-gustafsson.jpg');
+	--background:url('https://i.imgur.com/rn0AlMm.jpg');
 	--chat-transparency:0.8;
 	--sides-transparency:0.9;
 	--sides-blur:5px;
-	--color-primary:54,57,63;
-	--color-secondary:47,49,54;
-	--color-secondary-alt:41,43,47;
-	--color-tertiary:32,34,37;
 }
