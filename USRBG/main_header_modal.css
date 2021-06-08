@@ -1,8 +1,10 @@
+.root-3QyAh1 .topSection-y3p-_D,
 .root-SR8cQa .topSectionNormal-2-vo2m,
 .root-SR8cQa .topSectionPlaying-1J5E4n,
 .root-SR8cQa .topSectionSpotify-1lI0-P,
 .root-SR8cQa .topSectionStreaming-1Tpf5X,
 .root-SR8cQa .topSectionXbox-3fWLjS {transform: translateZ(0)}
+#app-mount .header-4zuFdR .wrapper-3t9DeA::before,
 #app-mount .header-QKLPzZ .wrapper-3t9DeA::before {
 	content: '' !important;
 	position: fixed;
@@ -14,6 +16,9 @@
 	pointer-events: none;
 	background: var(--user-background) center/cover no-repeat;
 }
+.root-SR8cQa .headerInfo-1Y1Vge,
+.root-SR8cQa .tabBarItem-3dfX8P,
+.root-SR8cQa .activity-2M3PRB,
 .root-SR8cQa .headerInfo-30uryT,
 .root-SR8cQa .tabBarItem-1b8RUP,
 .root-SR8cQa .activity-1ythUs {
