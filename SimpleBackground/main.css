@@ -78,7 +78,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 .invite-18yqGF {backdrop-filter:blur(var(--sides-blur))}
 .wrapper-35wsBm, .embedFull-2tM8-- {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
-.messageAttachment-1aDidq {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.messageAttachment-1aDidq, .attachment-33OFj0 {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount .messageAttachment-1aDidq > div {background:transparent}
 
 .reaction-1hd86g {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
