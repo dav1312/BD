@@ -37,11 +37,11 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-1JbKMe {background:transparent}
 .privateChannels-1nO12o {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
-.stageSection-3mAD8V {background:rgb(var(--color-primary), var(--chat-transparency))}
+.stageSection-3mAD8V {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Nitro tab */
 .applicationStore-1pNvnv {background:transparent}
-.scroller-9moviB {background:rgb(var(--color-primary), var(--chat-transparency))}
+.scroller-9moviB {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Discovery */
 .sidebar-2K8pFh > .scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
@@ -65,7 +65,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .threadSidebar-1o3BTy {margin-left:0;border-radius:0}
 
 .container-1n4bMv {background:transparent}
-.container-2vijaa {background:rgb(var(--color-primary), var(--chat-transparency))}
+.container-2vijaa {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 .scrollerSpacer-avRLaA {height:22px}
 .form-2fGMdU {margin-top:0}
@@ -109,7 +109,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Library */
 .header-39GIC8 {background:transparent}
-.scroller-1IIF0A, .scroller-2XE8rp, .scroller-1JpcIc {background:rgb(var(--color-primary), var(--chat-transparency))}
+.scroller-1IIF0A, .scroller-2XE8rp, .scroller-1JpcIc {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Settings */
 .layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {background:transparent}
