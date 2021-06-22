@@ -95,11 +95,11 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .container-2t1JyW, .rowContainer-2tYerQ, .participants-soO0aD, .tileContainer-BaRAZF,
 .container-1EOCj2 {background:transparent}
 .headerContainer-3Dbfbk {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
-.container-1EOCj2>.contentContainer-3uyIT3 {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--chat-blur))}
+.container-1EOCj2>.contentContainer-3uyIT3 {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 .sidebarVisible-F3zEoe {margin-right:0;border-radius:0}
 .scroller-1SuHJo::-webkit-scrollbar-track {display:none}
 .scroller-1SuHJo::-webkit-scrollbar-thumb {background:var(--background-floating)}
-.root-217Brm {background:rgba(0,0,0,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.root-217Brm {background:rgba(0,0,0,var(--chat-transparency));backdrop-filter:blur(var(--chat-blur))}
 
 /* Friends online */
 #app-mount .container-1D34oG, .nowPlayingColumn-2sl4cE {background:transparent}
