@@ -93,7 +93,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Stage channels */
 .container-pTf0Ly, .callContainer-3UuV6S, .scroller-1SuHJo,
-.container-2t1JyW, .rowContainer-2tYerQ, .participants-soO0aD,
+.container-2t1JyW, .rowContainer-2tYerQ, .participants-soO0aD, .tileContainer-BaRAZF,
 .container-1EOCj2 {background:transparent}
 .headerContainer-3Dbfbk {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 .container-1EOCj2>.contentContainer-3uyIT3 {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
