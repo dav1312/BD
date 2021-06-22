@@ -83,7 +83,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 #app-mount .messageAttachment-1aDidq > div {background:transparent}
 
 .reaction-1hd86g {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
-.reaction-1hd86g:hover {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--chat-blur))}
+.reaction-1hd86g:hover {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Tool bar */
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
