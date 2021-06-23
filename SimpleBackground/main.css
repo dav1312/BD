@@ -69,7 +69,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 .scrollerSpacer-avRLaA {height:22px}
 .form-2fGMdU {margin-top:0}
-.jumpToPresentBar-G1R9s6 {bottom:-8px}
+.jumpToPresentBar-G1R9s6, .messagesErrorBar-nyJGU7 {bottom:-8px}
 
 .channelTextArea-rNsIhG {background:transparent}
 .theme-dark .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(64,68,75,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
