@@ -1,8 +1,8 @@
 .userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d {
 	height: 120px;
-	background-color: var(--background-floating) !important;
-	background: var(--user-background) var(--user-popout-position, center) center / cover
+	background-color: var(--background-floating)!important;
+	background: var(--user-background) var(--user-popout-position, center) center/cover
 }
 .userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {
-	top: 76px;
+	top: 76px
 }
