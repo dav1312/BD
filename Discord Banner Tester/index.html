@@ -2,6 +2,9 @@
 	<head>
 		<title>Discord Banner Tester</title>
 		<style>
+			:root {
+				--zoom: 1.5
+			}
 			body {
 				background-color: #2f3136;
 			}
@@ -25,7 +28,7 @@
 			}
 			h1 {
 				text-align: center;
-				font-size: calc(20px * 1.5);
+				font-size: calc(20px * var(--zoom));
 				margin: 0 0 10px 0;
 			}
 			h1 + div,
@@ -34,32 +37,32 @@
 				text-align: center;
 			}
 			.bannertester {
-				height: calc(180px * 1.5);
-				width: calc(300px * 1.5);
-				border-radius: calc(5px * 1.5);
+				height: calc(180px * var(--zoom));
+				width: calc(300px * var(--zoom));
+				border-radius: calc(5px * var(--zoom));
 				position: relative;
 				align-items: center;
 				margin-top: 20px;
 				background-color: #18191c;
 			}
 			#header {
-				border-radius: calc(5px * 1.5) calc(5px * 1.5) 0 0;
+				border-radius: calc(5px * var(--zoom)) calc(5px * var(--zoom)) 0 0;
 				width: 100%;
-				height: calc(120px * 1.5);
+				height: calc(120px * var(--zoom));
 				background: center center / cover;
 			}
 			input,
 			button {
-				border-radius: calc(4px * 1.5);
+				border-radius: calc(4px * var(--zoom));
 				color: white;
 				border: 0;
 				outline: 0;
-				height: calc(25px * 1.5);
-				font-size: calc(12px * 1.5);
+				height: calc(25px * var(--zoom));
+				font-size: calc(12px * var(--zoom));
 			}
 			input {
 				background-color: #40444b;
-				padding-left: calc(6px * 1.5);
+				padding-left: calc(6px * var(--zoom));
 				width: 220px;
 			}
 			button {
@@ -73,30 +76,30 @@
 				background: #42464d;
 			}
 			.footer {
-				height: calc(60px * 1.5);
-				border-radius: 0 0 calc(5px * 1.5) calc(5px * 1.5);
+				height: calc(60px * var(--zoom));
+				border-radius: 0 0 calc(5px * var(--zoom)) calc(5px * var(--zoom));
 			}
 			#avatar {
-				width: calc(80px * 1.5);
-				height: calc(80px * 1.5);
+				width: calc(80px * var(--zoom));
+				height: calc(80px * var(--zoom));
 				position: absolute;
-				left: calc(16px * 1.5);
-				top: calc(76px * 1.5);
+				left: calc(16px * var(--zoom));
+				top: calc(76px * var(--zoom));
 				border-radius: 50%;
-				border: calc(6px * 1.5) solid #18191c;
+				border: calc(6px * var(--zoom)) solid #18191c;
 				background-color: #18191c;
 				background-position: center center;
 				background-size: cover;
 			}
 			.status {
 				position: absolute;
-				height: calc(16px * 1.5);
-				width: calc(16px * 1.5);
+				height: calc(16px * var(--zoom));
+				width: calc(16px * var(--zoom));
 				background: #3ba55c;
 				border-radius: 50%;
-				border: calc(6px * 1.5) solid #18191c;
-				bottom: calc(16px * 1.5);
-				left: calc(76px * 1.5);
+				border: calc(6px * var(--zoom)) solid #18191c;
+				bottom: calc(16px * var(--zoom));
+				left: calc(76px * var(--zoom));
 			}
 		</style>
 	</head>
