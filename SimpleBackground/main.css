@@ -71,9 +71,9 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .form-2fGMdU {margin-top:0}
 .jumpToPresentBar-G1R9s6, .messagesErrorBar-nyJGU7 {bottom:-8px}
 
-.channelTextArea-rNsIhG {background:transparent}
-.theme-dark .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(64,68,75,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
-.theme-light .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(235,237,239,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.channelTextArea-rNsIhG {background:transparent;backdrop-filter:blur(var(--sides-blur))}
+.theme-dark .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(64,68,75,var(--chat-transparency))}
+.theme-light .chatContent-a9vAAp .scrollableContainer-2NUZem {background:rgba(235,237,239,var(--chat-transparency))}
 .chatContent-a9vAAp .container-2fRDfG {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 .invite-18yqGF {backdrop-filter:blur(var(--sides-blur))}
