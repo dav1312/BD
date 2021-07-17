@@ -15,6 +15,8 @@
 				height: 100%;
 			}
 			.container2 {
+				display: flex;
+				flex-direction: column;
 				margin: 0;
 				padding: 20px;
 				background-color: #36393f;
@@ -42,7 +44,7 @@
 				border-radius: calc(5px * var(--zoom));
 				position: relative;
 				align-items: center;
-				margin-top: 20px;
+				margin-top: 10px;
 				background-color: #18191c;
 			}
 			#header {
@@ -74,6 +76,9 @@
 			}
 			button:active {
 				background: #42464d;
+			}
+			.syncbutton {
+				margin: 10px auto 0 auto;
 			}
 			.footer {
 				height: calc(60px * var(--zoom));
@@ -115,6 +120,9 @@
 				<input type="text" id="avatarinput" placeholder="Avatar URL">
 				<button onclick="avatar()">Set Avatar</button>
 			</div>
+			<div class="syncbutton">
+				<button onclick="sync()">Sync Both</button>
+			</div>	
 			<div class="bannertester">
 				<div id="header" style="background-image: url(https://i.imgur.com/YapRooK.gif)"></div>
 				<div id="avatar" style="background-image: url(https://cdn.discordapp.com/avatars/369189076437565451/2e346b34bdb9f2bc8acbec1ab76e24b6.png?size=512)"></div>
