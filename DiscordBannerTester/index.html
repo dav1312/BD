@@ -149,5 +149,19 @@
 				`background-image: url(${document.getElementById("bannerinput").value})`
 			);
 		}
+		function sync() {
+			document
+			.getElementById("avatar")
+			.setAttribute(
+				"style",
+				`background-image: url(${document.getElementById("avatarinput").value})`
+			);
+			document
+			.getElementById("header")
+			.setAttribute(
+				"style",
+				`background-image: url(${document.getElementById("bannerinput").value})`
+			);
+		}
 	</script>
 </html>
