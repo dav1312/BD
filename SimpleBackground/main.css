@@ -19,7 +19,7 @@
 
 /* General */
 body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
-.appMount-3lHmkl {background:var(--background) center/cover no-repeat}
+#app-mount {background:var(--background) center/cover no-repeat}
 
 /* Top bar */
 .withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
