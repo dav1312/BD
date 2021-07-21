@@ -44,7 +44,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-9moviB {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Discovery */
-.sidebar-2K8pFh > .scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
+.sidebar-2K8pFh>.scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
 #app-mount .pageWrapper-1PgVDX {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Member list */
