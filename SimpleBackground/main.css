@@ -31,7 +31,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-1Bvpku {background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Channels and friends */
-#app-mount .sidebar-2K8pFh {border-radius:0}
+#app-mount .sidebar-2K8pFh, .notice-3uyY6c {border-radius:0}
 .sidebar-2K8pFh {background:transparent}
 .sidebar-2K8pFh {backdrop-filter:blur(var(--sides-blur))}
 .container-3w7J-x {background:rgba(var(--color-secondary),var(--sides-transparency))}
