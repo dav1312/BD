@@ -22,6 +22,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 #app-mount {background:var(--background) center/cover no-repeat}
 #app-mount > .app-1q1i1E > :not(.app-2rEoOp) {background:rgba(var(--color-primary),var(--chat-transparency))!important;backdrop-filter:blur(var(--sides-blur))}
 :focus {outline:none}
+.enterDone-2zvtsK > .verification-3RfWYC {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Top bar */
 .withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
