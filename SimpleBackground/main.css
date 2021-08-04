@@ -24,6 +24,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 :focus {outline:none}
 .enterDone-2zvtsK>.verification-3RfWYC {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount>.errorPage-u8SYh4 {background-color:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.artwork-1adZW0 {display:none}
 
 /* Top bar */
 .withFrame-haYltI {padding-top:4px;margin-top:0;background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
