@@ -10,4 +10,4 @@
 	--opacity: .95;
 }
 
-:root{background-image:var(--background)}body{opacity:var(--opacity)}
+:root{background-image:var(--background) center/cover no-repeat}body{opacity:var(--opacity)}
