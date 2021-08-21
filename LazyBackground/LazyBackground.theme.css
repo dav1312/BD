@@ -6,8 +6,8 @@
  */
 
 :root {
-	--background: url('https://i.imgur.com/rn0AlMm.jpg');
+	--background-image: url('https://i.imgur.com/rn0AlMm.jpg');
 	--opacity: .95;
 }
 
-:root{background-image:var(--background) center/cover no-repeat}body{opacity:var(--opacity)}
+:root{background:var(--background-image) center/cover no-repeat}body{opacity:var(--opacity)}
