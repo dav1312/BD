@@ -214,7 +214,7 @@ _:warning: **Still under construction**. Some links may either work improperly o
 
 
 <details>
-<summary>How can I delete all of my messages in a DM/Server?</summary>
+<summary>Can I delete all of my messages in a DM/Server?</summary>
 
 > **No.** Automating requests through Discord's API will get your account flagged for selfbotting which can result in account termination.  
 > Additionally, sending requests in rapid succession is a form of API spam which increases the odds of being flagged. As such, we will not provide any plugins that do this.
