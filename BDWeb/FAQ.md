@@ -6,6 +6,7 @@ This page should not be treated as documentation.
 
 _:warning: **Still under construction**. Some links may either work improperly or not be added._
 
+
 ---
 
 ## BetterDiscord
@@ -127,48 +128,40 @@ _:warning: **Still under construction**. Some links may either work improperly o
 
 ---
 
-## Themes
+## Installer Issues
 
 <details>
-<summary>How do I download themes?</summary>
+<summary>Cannot read property 'assets' of undefined</summary>
 
-> 1. Find a theme you like from our [themes](https://betterdiscord.app/themes) page.
-> 2. Click the "Download" button on the theme you want.
-> 3. Ensure you have BetterDiscord installed. If you don't, refer to question #1.
-> 4. Open your Discord user settings. Near the very bottom, there should be a themes tab. Click it.
-> 5. At the top of the themes page, click the "Open themes folder" button.
-> 6. Drag the file you downloaded into the themes folder that opened.
+> **Redownload the installer**.
 </details>
 
 
 <details>
-<summary>I can't find a theme that I like.</summary>
+<summary>(MacOS) EACCESS: permission denied, mkdir</summary>
 
-> If you are knowledgeable of CSS, you can edit the preset variables of most themes using a text editor.  
-> Otherwise, you can customize themes with a [theme generator](https://bdeditor.dev/).
+> Reinstall Discord
 </details>
 
 
 <details>
-<summary>How safe are themes?</summary>
+<summary>read ECONNRESET</summary>
 
-> **Themes are** for the most part **harmless** and pose no threat to you.
+> Your vpn/proxy/antivirus is blocking the connection. Try disabling them temporarily.
 </details>
 
 
 <details>
-<summary>My theme looks broken.</summary>
+<summary>self signed certificate in certificate chain</summary>
 
-> If your theme is partially broken, you should contact the developer.  
-> Themes need consistent management and will break over time if the author doesn't update it frequently.
+> Try disabling your vpn/proxy temporarily.
 </details>
 
 
 <details>
-<summary>My theme is not showing up on the themes tab.</summary>
+<summary>Cannot read property 'hasOwnProperty' of undefined</summary>
 
-> Make sure the **file name** of your theme **does not contain a number at the end** (e.g. <code>Addon.theme (1).css</code>).All themes must end in <code>.theme.css</code>.  
-> Downloading an addon twice is a common reason for the addon not showing up in settings.
+> You might have reached Github's API rate limit. Please wait up to 1 hour and try again.
 </details>
 
 
@@ -241,5 +234,52 @@ _:warning: **Still under construction**. Some links may either work improperly o
 <summary>My plugin is not showing up on the plugins tab.</summary>
 
 > Make sure the **file name** of your plugin **does not contain a number at the end** (e.g. <code>Addon.plugin (1).js</code>). All plugins must end in <code>.plugin.js</code>.  
+> Downloading an addon twice is a common reason for the addon not showing up in settings.
+</details>
+
+
+---
+
+## Themes
+
+<details>
+<summary>How do I download themes?</summary>
+
+> 1. Find a theme you like from our [themes](https://betterdiscord.app/themes) page.
+> 2. Click the "Download" button on the theme you want.
+> 3. Ensure you have BetterDiscord installed. If you don't, refer to question #1.
+> 4. Open your Discord user settings. Near the very bottom, there should be a themes tab. Click it.
+> 5. At the top of the themes page, click the "Open themes folder" button.
+> 6. Drag the file you downloaded into the themes folder that opened.
+</details>
+
+
+<details>
+<summary>I can't find a theme that I like.</summary>
+
+> If you are knowledgeable of CSS, you can edit the preset variables of most themes using a text editor.  
+> Otherwise, you can customize themes with a [theme generator](https://bdeditor.dev/).
+</details>
+
+
+<details>
+<summary>How safe are themes?</summary>
+
+> **Themes are** for the most part **harmless** and pose no threat to you.
+</details>
+
+
+<details>
+<summary>My theme looks broken.</summary>
+
+> If your theme is partially broken, you should contact the developer.  
+> Themes need consistent management and will break over time if the author doesn't update it frequently.
+</details>
+
+
+<details>
+<summary>My theme is not showing up on the themes tab.</summary>
+
+> Make sure the **file name** of your theme **does not contain a number at the end** (e.g. <code>Addon.theme (1).css</code>).All themes must end in <code>.theme.css</code>.  
 > Downloading an addon twice is a common reason for the addon not showing up in settings.
 </details>
