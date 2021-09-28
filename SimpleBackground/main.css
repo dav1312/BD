@@ -50,7 +50,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Discovery */
 .sidebar-2K8pFh>.scrollerBase-289Jih {background:rgba(var(--color-secondary),var(--sides-transparency))}
-#app-mount .pageWrapper-1PgVDX {background:rgba(var(--color-primary),var(--chat-transparency))}
+#app-mount .pageWrapper-1PgVDX, #app-mount .scroller-3Vjo4T {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Member list */
 .members-1998pB, .members-1998pB>div {background:transparent}
