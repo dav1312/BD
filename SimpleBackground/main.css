@@ -54,7 +54,7 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 
 /* Member list */
 .members-1998pB, .members-1998pB>div {background:transparent}
-.membersWrap-2h-GB4 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.membersWrap-2h-GB4, .tabs-3L9Rgq, .container-1CU5bi {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
 .panels-j1Uci_ {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
@@ -91,6 +91,9 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .scroller-11cdZM {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 .noChannel-3LgMRp {background:rgba(var(--color-tertiary),var(--chat-transparency))}
+
+.wrapper-3qSb0d {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.theme-dark .navigationBar-2JJXBp {background-color:rgba(var(--color-tertiary),var(--sides-transparency))}
 
 /* Tool bar */
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
