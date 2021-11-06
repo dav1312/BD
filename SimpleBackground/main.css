@@ -53,8 +53,8 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 #app-mount .pageWrapper-1PgVDX, #app-mount .scroller-3Vjo4T {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Member list */
-.members-1998pB, .members-1998pB>div {background:transparent}
-.membersWrap-2h-GB4, .tabs-3L9Rgq, .container-1CU5bi {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.members-1998pB, .members-1998pB>div, .membersWrap-2h-GB4, .tabs-3L9Rgq, .container-1CU5bi, .container-2wlB3z {background:transparent}
+.container-2PDP7D, .chatContent-a9vAAp + .container-2wlB3z {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
 .panels-j1Uci_ {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
