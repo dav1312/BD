@@ -95,6 +95,8 @@ body, .app-2rEoOp, .bg-h5JY_x {background:transparent}
 .wrapper-3qSb0d {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 .theme-dark .navigationBar-2JJXBp {background-color:rgba(var(--color-tertiary),var(--sides-transparency))}
 
+.chat-3bRxxu .membersWrap-2h-GB4:not(.hiddenMembers-2dcs_q) {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+
 /* Tool bar */
 .container-1r6BKw.themed-ANHk51 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount .children-19S4PO:after {display:none}
