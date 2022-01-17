@@ -74,7 +74,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .jumpToPresentBar-1cEnH0, .messagesErrorBar-1IQ1rH {bottom:-8px} /* Jump to present and Messages failed to load */
 
 /* Message input */
-.channelTextArea-1FufC0 {background:transparent;backdrop-filter:blur(var(--sides-blur))}
+.channelTextArea-1VQBuV {background:transparent;backdrop-filter:blur(var(--sides-blur))}
 .theme-dark .chatContent-3KubbW .scrollableContainer-15eg7h {background:rgba(64,68,75,var(--chat-transparency))}
 .theme-light .chatContent-3KubbW .scrollableContainer-15eg7h {background:rgba(235,237,239,var(--chat-transparency))}
 .chatContent-3KubbW .container-A2jo65 {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
