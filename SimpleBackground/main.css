@@ -69,16 +69,16 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .container-3XgAHv {margin-left:0;border-radius:0}
 .resizeHandle-PBRzPC {background:rgba(var(--color-tertiary),var(--chat-transparency))}
 
-.scrollerSpacer-3AqkT9 {height:22px} /* Chat spacer (bottom) */
-.scrollerSpacer-3AqkT9.empty-26e_55 {height:8px} /* Chat spacer (bottom) */
-.form-3gdLxP {margin-top:0} /* Text input */
-.jumpToPresentBar-1cEnH0, .messagesErrorBar-1IQ1rH {bottom:-8px} /* Jump to present and Messages failed to load */
-
 /* Message input */
 .channelTextArea-1VQBuV {background:transparent;backdrop-filter:blur(var(--sides-blur))}
 .theme-dark .chatContent-3KubbW .scrollableContainer-15eg7h {background:rgba(64,68,75,var(--chat-transparency))}
 .theme-light .chatContent-3KubbW .scrollableContainer-15eg7h {background:rgba(235,237,239,var(--chat-transparency))}
 .chatContent-3KubbW .container-A2jo65 {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+
+.scrollerSpacer-3AqkT9 {height:22px} /* Chat spacer (bottom) */
+.scrollerSpacer-3AqkT9.empty-26e_55 {height:8px} /* Chat spacer (bottom) */
+.form-3gdLxP {margin-top:0} /* Text input */
+.jumpToPresentBar-1cEnH0, .messagesErrorBar-1IQ1rH {bottom:-8px} /* Jump to present and Messages failed to load */
 
 /* Embeds and invites */
 .invite-3uuHYQ {backdrop-filter:blur(var(--sides-blur))}
