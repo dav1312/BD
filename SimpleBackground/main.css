@@ -67,6 +67,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 /* Threads */
 .chat-2ZfjoI.threadSidebarOpen-1LSXvU {border-radius:0}
 .container-3XgAHv {margin-left:0;border-radius:0}
+.resizeHandle-PBRzPC {background:rgba(var(--color-tertiary),var(--chat-transparency))}
 
 .scrollerSpacer-3AqkT9 {height:22px} /* Chat spacer (bottom) */
 .scrollerSpacer-3AqkT9.empty-26e_55 {height:8px} /* Chat spacer (bottom) */
