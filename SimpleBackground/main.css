@@ -80,6 +80,8 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .form-3gdLxP {margin-top:0} /* Text input */
 .jumpToPresentBar-1cEnH0, .messagesErrorBar-1IQ1rH {bottom:-8px} /* Jump to present and Messages failed to load */
 
+.spamBanner-1auiob {position:relative} /* Message input when timed out */
+
 /* Embeds and invites */
 .invite-3uuHYQ {backdrop-filter:blur(var(--sides-blur))}
 .wrapper-1HIH0j, .embedFull-1HGV2S {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
