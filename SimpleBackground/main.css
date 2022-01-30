@@ -105,7 +105,8 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount .children-3xh0VB:after {display:none}
 
 /* Calls */
-#app-mount .wrapper-1gVUIN {background:transparent}
+#app-mount .wrapper-1gVUIN {background:transparent} /* DMs */
+.callContainer-HtHELf {background:transparent} /* Server VC */
 
 /* Stage channels */
 .container-cH6QoY, .callContainer-BGIngG, .scroller-35tvpe,
