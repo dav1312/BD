@@ -50,9 +50,9 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .sidebar-1tnWFu>.scrollerBase-_bVAAt {background:rgba(var(--color-secondary),var(--sides-transparency))}
 #app-mount .pageWrapper-2PwDoS, #app-mount .scroller-RfJjkV {background:rgba(var(--color-primary),var(--chat-transparency))}
 
-/* Member list (chat, threads, groups) */
+/* Member list (chat, threads, groups, NSFW Warning) */
 .members-3WRCEx, .members-3WRCEx>div, .membersWrap-3NUR2t, .tabs-1RhQha, .container-NkLXgf, .container-2o3qEW {background:transparent}
-.chatContent-3KubbW + div {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.chatContent-3KubbW + div, .scroller-3KyaqJ + div {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
 .panels-3wFtMD {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
