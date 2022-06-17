@@ -107,6 +107,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 /* Calls */
 #app-mount .wrapper-1gVUIN {background:transparent} /* DMs */
 .callContainer-HtHELf {background:transparent} /* Server VC */
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {border-radius:0} /* Server VC with chat open */
 
 /* Stage channels */
 .container-cH6QoY, .callContainer-BGIngG, .scroller-35tvpe,
