@@ -115,7 +115,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .container-lqPArA {background:transparent}
 .headerContainer-21E-jZ {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))} /* Requests */
 .container-lqPArA>.contentContainer-dKJ2Bn {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))} /* Requests */
-.sidebarVisible-3bgZKv {margin-right:0;border-radius:0}
+.container-lqPArA {margin-left:0}
 .scroller-35tvpe::-webkit-scrollbar-track {display:none}
 .scroller-35tvpe::-webkit-scrollbar-thumb {background:var(--background-floating)}
 .root-22AK9z {background:rgba(24,25,28,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
