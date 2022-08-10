@@ -88,7 +88,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 /* Reactions */
 .reaction-2A2y9y {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
-.reaction-2A2y9y:hover {background:rgba(var(--color-primary),var(--chat-transparency))}
+.reaction-2A2y9y:hover, .container-3YcgdM {background:rgba(var(--color-primary),var(--chat-transparency))} /* Hovered reactions and forums reactions */
 
 /* NSFW Warning */
 .scroller-3KyaqJ {background:rgba(var(--color-primary),var(--chat-transparency))}
