@@ -51,7 +51,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount .pageWrapper-2PwDoS, #app-mount .scroller-RfJjkV {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Member list (chat, threads, groups, NSFW Warning, forums) */
-.members-3WRCEx, .members-3WRCEx>div, .membersWrap-3NUR2t, .tabs-1RhQha, .container-NkLXgf, .container-2o3qEW {background:transparent}
+.members-3WRCEx, .members-3WRCEx>div, .membersWrap-3NUR2t, .tabs-1RhQha, .container-NkLXgf, .container-2o3qEW, .member-2gU6Ar {background:transparent}
 .chatContent-3KubbW + div, .scroller-3KyaqJ + div, .container-3wLKDe + .container-2o3qEW {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* User panel */
