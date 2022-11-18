@@ -102,8 +102,8 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 /* Server: Home */
 #app-mount .background-fkKrXt {background:transparent}
-.theme-dark .content-1jQy2l {background:rgba(44,46,51,var(--chat-transparency))}
-.theme-light .content-1jQy2l {background:rgba(247,248,249,var(--chat-transparency))}
+.theme-dark .homeContainer-r4Hvv1 {background:rgba(44,46,51,var(--chat-transparency))}
+.theme-light .homeContainer-r4Hvv1 {background:rgba(247,248,249,var(--chat-transparency))}
 .card-3x20HF, .container-2Hi7Km, .container-xwOzwi {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Tool bar */
