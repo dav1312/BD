@@ -50,7 +50,8 @@
 	--bg-overlay-selected: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-selected-inverse)), rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-selected-inverse))) fixed 0 0/cover, linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-selected)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-selected))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover;
 	--bg-overlay-chat: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-chat)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-chat))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover;
 	--bg-overlay-home: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover;
-	--bg-overlay-home-card: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home-card)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home-card))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover
+	--bg-overlay-home-card: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home-card)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-home-card))) fixed 0 0/cover, var(--custom-theme-background) fixed 0 0/cover;
+	--bg-overlay-app-frame: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-app-frame)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-app-frame))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover;
 }
 
 .theme-dark .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
