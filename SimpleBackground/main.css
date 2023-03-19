@@ -39,7 +39,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
 #app-mount .container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
-.scroller-WSmht3 {background:transparent}
+#app-mount .scroller-WSmht3 {background:transparent}
 .privateChannels-oVe7HL {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
 /* Nitro tab */
@@ -132,6 +132,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount .container-2cd8Mz, .nowPlayingColumn-1eCBCN {background:transparent}
 .peopleColumn-1wMU14 {background:rgba(var(--color-primary),var(--chat-transparency))}
 .container-1oAagU {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.wrapper-2RrXDg {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
 /* Library */
 .header-2EadGG {background:transparent}
