@@ -37,7 +37,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
 .sidebar-1tnWFu {background:transparent}
 .sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
-.container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
+#app-mount .container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
 
 .scroller-WSmht3 {background:transparent}
 .privateChannels-oVe7HL {background:rgba(var(--color-secondary),var(--sides-transparency))}
@@ -56,10 +56,11 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 /* User panel */
 .panels-3wFtMD {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
+#app-mount .container-YkUktl {background:transparent}
 
 /* Chat */
 .chat-2ZfjoI, .container-3XgAHv, #app-mount .container-1um7CU {background:transparent} /* Chat, threads chat and browse channels (beta) */
-.chatContent-3KubbW, .chat-1rZYgu, #app-mount .container-3wLKDe, #app-mount .container-2IKOsH {background:rgba(var(--color-primary),var(--chat-transparency))} /* Chat, threads chat, forums and browse channels (beta) */
+.chatContent-3KubbW, .chat-1rZYgu, #app-mount .container-3wLKDe, #app-mount .container-2IKOsH, .chatHeaderBar-31g1mU {background:rgba(var(--color-primary),var(--chat-transparency))} /* Chat, threads chat, forums and browse channels (beta), not in channel list notice */
 #app-mount .form-3gdLxP:before {display:none} /* Small thing left to text input */
 .wrapper-3HVHpV, .wrapper-15CKyy {background:transparent} /* Messages not loading */
 .content-3spvdd {background:transparent;backdrop-filter:blur(5px)} /* New day divider */
