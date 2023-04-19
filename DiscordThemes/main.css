@@ -106,6 +106,10 @@
 	border: 1px solid var(--background-modifier-accent)
 }
 
+:root .children-3xh0VB:after {
+	content: unset
+}
+
 .theme-dark:root .attachedBars-2BCP3l {
 	background: var(--bg-overlay-1, var(--background-secondary));
 	background: var(--bg-overlay-2, var(--background-secondary))
@@ -127,20 +131,6 @@
 .theme-light:root .replyBar-1oi75v,
 .theme-light:root .threadSuggestionBar-3ExSyc {
 	background: var(--bg-overlay-2, var(--background-secondary))
-}
-
-:root .children-3xh0VB:after {
-	content: unset
-}
-
-.theme-dark:root .preview-QJ3OG3 {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3)))), var(--custom-theme-background);
-	background: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))), var(--custom-theme-background)
-}
-
-.theme-light:root .preview-QJ3OG3 {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)))), var(--custom-theme-background);
-	background: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), var(--custom-theme-background)
 }
 
 :root .form-3gdLxP:before {
@@ -236,4 +226,14 @@
 .theme-light:root .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .theme-light:root .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
 	background: var(--green-330)
+}
+
+.theme-dark:root .preview-QJ3OG3 {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3)))), var(--custom-theme-background);
+	background: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))), var(--custom-theme-background)
+}
+
+.theme-light:root .preview-QJ3OG3 {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)))), var(--custom-theme-background);
+	background: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), var(--custom-theme-background)
 }
