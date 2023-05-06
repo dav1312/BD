@@ -47,7 +47,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .scroller-29cQFV {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Message Requests tab */
-.content-1jQy2l {background:rgba(var(--color-primary),var(--chat-transparency))}
+.container-2YMsb4>.content-1jQy2l {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Discovery */
 .sidebar-1tnWFu>.scrollerBase-_bVAAt {background:rgba(var(--color-secondary),var(--sides-transparency))}
