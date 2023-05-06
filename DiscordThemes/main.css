@@ -1,24 +1,24 @@
-.theme-dark:root .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
+.theme-dark:root .auto-2TJ1RH::-webkit-scrollbar-track {
 	background-size: 200vh;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/.4)), to(rgb(var(--bg-overlay-color)/.4))), var(--custom-theme-background);
 	background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4), rgb(var(--bg-overlay-color)/.4)), var(--custom-theme-background)
 }
 
-.theme-dark:root .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-thumb,
-.theme-dark:root .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-thumb {
+.theme-dark:root .auto-2TJ1RH::-webkit-scrollbar-thumb,
+.theme-dark:root .thin-RnSY0a::-webkit-scrollbar-thumb {
 	background-size: 200vh;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))), to(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)))), var(--custom-theme-background);
 	background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)), rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))), var(--custom-theme-background)
 }
 
-.theme-light:root .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-track {
+.theme-light:root .auto-2TJ1RH::-webkit-scrollbar-track {
 	background-size: 200vh;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)))), var(--custom-theme-background);
 	background-image: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))), var(--custom-theme-background)
 }
 
-.theme-light:root .customTheme-3QAYZq.auto-2TJ1RH::-webkit-scrollbar-thumb,
-.theme-light:root .customTheme-3QAYZq.thin-RnSY0a::-webkit-scrollbar-thumb {
+.theme-light:root .auto-2TJ1RH::-webkit-scrollbar-thumb,
+.theme-light:root .thin-RnSY0a::-webkit-scrollbar-thumb {
 	background-size: 100vh;
 	background-image: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6)), rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))
 }
