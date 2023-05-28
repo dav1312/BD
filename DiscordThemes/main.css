@@ -111,8 +111,19 @@
 }
 
 .theme-dark:root .attachedBars-2BCP3l {
-	background: var(--bg-overlay-1, var(--background-secondary));
+	background: var(--bg-overlay-1, var(--background-secondary))
+}
+
+.theme-dark:root .textAreaMobileThemed-wEhNAy {
+	margin-top: 16px
+}
+
+.theme-light:root .attachedBars-2BCP3l {
 	background: var(--bg-overlay-2, var(--background-secondary))
+}
+
+.theme-light:root .textAreaMobileThemed-wEhNAy {
+	margin-top: 16px
 }
 
 :root .divider-2rZFJK {
@@ -176,6 +187,24 @@
 
 :root .scroller-3X7KbA {
 	background: var(--bg-overlay-app-frame, var(--background-tertiary))
+}
+
+.theme-dark:root .actionButtonMobile-2jvM0t,
+.theme-light:root .actionButtonMobile-2jvM0t {
+	background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6))
+}
+
+.theme-dark:root .themedHeaderMobile-1a1cTx {
+	background: var(--bg-overlay-4, var(--background-secondary))
+}
+
+.theme-dark:root .themedSearchBarMobile-2-Ojm2,
+.theme-light:root .themedHeaderMobile-1a1cTx {
+	background: var(--bg-overlay-3, var(--background-secondary))
+}
+
+.theme-light:root .themedSearchBarMobile-2-Ojm2 {
+	background: var(--bg-overlay-2, var(--background-secondary))
 }
 
 .theme-dark:root .container-1zzFcN {
