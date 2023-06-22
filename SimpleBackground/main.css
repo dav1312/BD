@@ -147,11 +147,10 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .contentRegion-3HkfJJ {background:rgba(var(--color-primary),var(--chat-transparency))}
 
 /* Channel perms */
+.scroller-3_YDR2 {background:transparent}
+
+/* Server roles */
 .titleContainer-3fPic2::before, .stickyHeader-1Sunlx::before, .header-JUTO-g::before {background:var(--background) center/cover fixed}
 .titleContainer-3fPic2::after, .stickyHeader-1Sunlx::after, .header-JUTO-g::after {background:rgba(var(--color-primary),var(--chat-transparency))}
 .titleContainer-3fPic2::after, .titleContainer-3fPic2::before, .stickyHeader-1Sunlx::after, .stickyHeader-1Sunlx::before, .header-JUTO-g::after, .header-JUTO-g::before {content:"";position:absolute;top:0;bottom:0;right:0;left:0;pointer-events:none;z-index:-1}
 .titleContainer-3fPic2::before, .titleContainer-3fPic2::after {height:100px}
-
-/* Plugins */
-/* Member count */
-.hasCounter #MemberCount {background:transparent}
